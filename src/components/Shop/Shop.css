@@ -1,0 +1,17 @@
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cart-container{
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding-top: 5px;
+    background-color: rgb(199, 211, 211);
+}
+@media  only screen and (max-width: 720px) {
+    .products-container {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+}

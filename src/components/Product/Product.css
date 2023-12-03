@@ -1,0 +1,26 @@
+.product {
+  background-color: rgb(211, 211, 211);
+  border: 12px solid rgb(1, 65, 62);
+  padding: 10px;
+  margin: 12px;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-bottom: 20px;
+}
+
+.btn-cart{
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cart:hover{
+    background-color: rgb(156, 192, 246);
+}
+
+.btn-text{
+    margin-right: 5px;
+}
